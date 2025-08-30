@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Books</title>
+</head>
+<body style="background:#222 ;color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;max-height:100vh;">
+    
+
+<h1>Our Books</h1>
+<div id="booksContainer">
+  <!-- Example Book -->
+  <div class="book-card" data-title="Book One" data-price="10" data-file="uploads/book1.pdf";>
+    <img src="shiromani-kant-mo3FOTG62ao-unsplash.jpg" alt="C:\Users\hp\Desktop\website\shiromani-kant-mo3FOTG62ao-unsplash.jpg">
+    <h3>Book One</h3>
+    <p>Price: $10</p>
+    <button class="buyBtn">Buy / Download</button>
+  </div>
+
+
+<!-- Login Modal -->
+<div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Login / Sign Up</h2>
+    <form id="authForm">
+      <input type="email" id="authEmail" placeholder="Email" required>
+      <input type="password" id="authPass" placeholder="Password" required>
+      <button type="submit">Login / Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<!-- Payment Modal -->
+<div id="paymentModal" class="modal">
+  <div class="modal-content">
+    <span class="closePay">&times;</span>
+    <h2>Payment</h2>
+    <p id="bookInfo"></p>
+    <form id="paymentForm">
+      <input type="text" placeholder="Card Number" required>
+      <input type="text" placeholder="Expiration" required>
+      <input type="text" placeholder="CVV" required>
+      <button type="submit">Pay & Download</button>
+    </form>
+    <p id="paymentMessage"></p>
+  </div>
+</div>
+
+<script src="books.js"></script>
+</body>
+</html>
