@@ -12,7 +12,7 @@ section{padding:100px 20px 50px 20px;text-align:center;min-height:100vh;}
 .btn:hover{background:#00bfa5;}
 .books-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;padding:2rem;}
 .book-card{background:#fff;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,0.2);padding:1rem;text-align:center;}
-.book-card img{width: 50px;;border-radius:5px;}
+.book-card img{width: 100%;;border-radius:5px;}
 .book-card button{margin-top:0.5rem;padding:0.5rem 1rem;background:#64ffda;border:none;border-radius:5px;cursor:pointer;font-weight:bold;}
 .book-card button:hover{background:#00bfa5;}
 
