@@ -7,35 +7,35 @@
 </head>
 
 <body>
-    
+  <link rel="stylesheet" href="books.css">  
 
 <h1>Our Books</h1>
-<div id="booksContainer">
   <!-- Example Book -->
-  <div class="book-card" data-title="Book One" data-price="10" data-file="uploads/book1.pdf";>
+   <div id="now" class="two">
+
     <img src="shiromani-kant-mo3FOTG62ao-unsplash.jpg" alt="C:\Users\hp\Desktop\website\shiromani-kant-mo3FOTG62ao-unsplash.jpg">
-    <h3>Book One</h3>
+    <h1>Book One</h1>
+    <h3>Impamvu ubaho uko ubaho</h3>
     <p>Price: $10</p>
     <button class="buyBtn">Buy / Download</button>
-  </div>
+  
 
 
 <!-- Login Modal -->
-<div id="authModal" class="modal">
-  <div class="modal-content">
+<p id="authModal" class="modal"></p>
+  <p class="modal-content"></p>
     <span class="close">&times;</span>
-    <h2>Login / Sign Up</h2>
+    <h1 id="head">Login / Sign Up</h1>
     <form id="authForm">
       <input type="email" id="authEmail" placeholder="Email" required>
       <input type="password" id="authPass" placeholder="Password" required>
       <button type="submit">Login / Sign Up</button>
     </form>
-  </div>
-</div>
+
 
 <!-- Payment Modal -->
-<div id="paymentModal" class="modal">
-  <div class="modal-content">
+<p id="paymentModal" class="modal"></p>
+  <p class="modal-content"></p>
     <span class="closePay">&times;</span>
     <h2>Payment</h2>
     <p id="bookInfo"></p>
@@ -47,8 +47,6 @@
     </form>
     <p id="paymentMessage"></p>
   </div>
-</div>
-
 <script src="books.js"></script>
 </body>
 </html>

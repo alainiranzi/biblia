@@ -1,0 +1,24 @@
+body {
+    width: 100%;
+    background-color:rgb(140, 134, 173);
+    align-items: center;
+    padding: 0%;
+    
+
+}
+img {
+    width: 100%;
+
+ }
+ h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(106, 60, 185);
+ }
+ div#now {
+   text-align: center;
+
+ }
+head {
+   color: brown;
+}
