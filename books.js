@@ -43,7 +43,7 @@ document.getElementById("paymentForm").addEventListener("submit", e => {
   document.getElementById("paymentModal").style.display = "none";
   alert(`Payment successful for "${selectedBook}" ($${selectedPrice})! Download starting...`);
   
-  // Trigger automatic download
+  
   const link = document.createElement("a");
   link.href = selectedFile;
   link.download = selectedFile;
